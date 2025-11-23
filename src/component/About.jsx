@@ -1,5 +1,5 @@
 import "../component/About.css";
-
+import AboutImage from "../assets/pic1.jpeg"
 const About = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const About = () => {
             <div className="col-12 justify-content-center col-sm-12 col-lg-6 col-md-12 d-flex justify-content-sm-center ">
               <div className="d-flex justify-content-center align-items-center pt-sm-5">
                 <img
-                  src="./src/assets/pic-1.jpeg"
+                  src={AboutImage}
                   alt=""
                   className="aboutImage"
                 />

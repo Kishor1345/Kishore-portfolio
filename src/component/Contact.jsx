@@ -1,5 +1,5 @@
 import "../component/Contact.css";
-
+import ContactImage from "../assets/ContactImage.png"
 const Contact = () => {
   return (
     <section
@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img src="./src/assets/contact-8.png" alt="" className="contactimg" />
+            <img src={ContactImage} alt="" className="contactimg" />
           </div>
           <div className="col-12 col-sm-12  col-md-12 col-lg-6  d-flex justify-content-center flex-column formcontainer rounded-5">
             <h1 className=" text-white display-6 fs-2 fw-bold text-center mt-3">Contact<span style={{ color: "#ae8af8ff" }}>Me</span></h1>

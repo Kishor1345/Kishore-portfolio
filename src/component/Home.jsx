@@ -1,8 +1,7 @@
 import "../component/Home.css";
 import { useEffect } from "react";
 import gsap from "gsap";
-import BubbleBackground from "./BubbleBackground ";
-import pic2 from "../assets/pic-2.jpeg";
+import HomeImage from "../assets/pic-2.jpeg";
 const Home = () => {
   useEffect(() => {
     gsap.fromTo(
@@ -70,7 +69,7 @@ const Home = () => {
             <div className="col-12 col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center">
               <div>
                 <img
-                  src={pic2}
+                  src={HomeImage}
                   alt=""
                   className="profileImage"
                    data-aos="fade-up"
