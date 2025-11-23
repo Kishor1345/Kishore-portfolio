@@ -1,5 +1,7 @@
 import "../component/Project.css";
-
+import frontendimage from "../assets/frontendimage.jpg";
+import backendimage from "../assets/backendimage.jpg";
+import fullstackimage from "../assets/fullstackimage.jpg";
 const Project = () => {
   return (
     <section className="projectcontainer container d-flex align-items-center" id="project">
@@ -10,7 +12,7 @@ const Project = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-4 pb-sm-5 pb-5">
             <div className="card border-0">
-              <img src="./src/assets/front2.jpg" alt="" className="rounded-2" />
+              <img src={frontendimage} alt="" className="rounded-2" />
               <div className="card-body">
                 <h className="card-title fw-bold">Front End Project</h>
                 <p className="card-text">
@@ -22,7 +24,7 @@ const Project = () => {
           </div>
           <div className="col-12 col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-4  pb-sm-5 pb-5">
             <div className="card border-0">
-              <img src="./src/assets/backend.jpg" alt=""  className="rounded-2"/>
+              <img src={backendimage} alt=""  className="rounded-2"/>
               <div className="card-body">
                 <h className="card-title fw-bold">Back End Project</h>
                 <p className="card-text">
@@ -34,7 +36,7 @@ const Project = () => {
           </div>
           <div className="col-12 col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-4  pb-sm-5 pb-5">
             <div className="card border-0" >
-              <img src="./src/assets/fullstack.jpg" alt="" className="rounded-2"/>
+              <img src={fullstackimage} alt="" className="rounded-2"/>
               <div className="card-body">
                 <h className="card-title fw-bold">Full Stack Project</h>
                 <p className="card-text">
