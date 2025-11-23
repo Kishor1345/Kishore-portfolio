@@ -1,5 +1,4 @@
 import "../component/Skill.css"
-import BubbleBackground from "./BubbleBackground ";
 
 const Skill = () => {
   return (
