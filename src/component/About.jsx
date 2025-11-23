@@ -52,7 +52,8 @@ const About = () => {
                 </p>
                 <div>
                   <a
-                    href="#About"
+                    href="https://drive.google.com/drive/u/0/folders/1FeWguctUtcq-ipD34x8IY731dqkm9nqS"
+                    target="_blank"
                     className=" btn w-25 text-white mt-2 "
                     style={{ backgroundColor: "#ae8af8ff", padding: "10px" }}
                   >
