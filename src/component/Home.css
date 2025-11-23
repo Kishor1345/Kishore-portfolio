@@ -1,0 +1,87 @@
+.homeContainer {
+  height: 100%;
+  padding: 100px;
+  overflow: hidden;
+  /* border-left: 4px solid #ae8af8;
+  border-right: 4px solid #ae8af8; */
+  /* animation: glow 2s infinite alternate; */
+}
+.hometext {
+  font-size: 40px;
+  font-weight: bold;
+}
+.profileImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  /* outline:10px solid #3a2341; */
+  object-fit: cover;
+  border: 4px solid #ae8af8;
+  /* animation: glow 2s infinite alternate; */
+}
+/* @keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #ae8af8;
+  }
+  100% {
+    box-shadow: 0 0 30px #c29aff, 0 0 50px #c29aff;
+  }
+} */
+.linkedinicon {
+   transition: all 0.1s ease;
+}
+.linkedinicon:hover {
+  padding: 5%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.giticon {
+  transition: all 0.1s ease;
+}
+.giticon:hover {
+  padding: 5%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.emoji {
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .homeContainer {
+    padding: 0px;
+  }
+}
+@media (max-width: 568px) {
+  .homeContainer {
+    padding: 0px;
+  }
+  .profileImage {
+    height: 250px;
+    width: 250px;
+  }
+  .hometext {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .profileImage {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+  }
+  .homeContainer {
+    padding: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .homeContainer {
+    padding: 80px;
+  }
+  .profileImage {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+  }
+}

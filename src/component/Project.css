@@ -1,0 +1,29 @@
+.projectcontainer{
+  height: 100%;
+  padding: 100px;
+  background-color:#25152a;
+}
+@media (max-width: 576px) {
+  .projectcontainer .card {
+    max-width: 280px;   /* reduce width */
+    margin: 0 auto;     /* center the card */
+    font-size: 0.9rem;  /* optional - smaller text */
+  }
+
+  .projectcontainer .card img {
+    height: 150px;      /* optional - smaller image */
+    object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+  .projectcontainer .card {
+    max-width: 280px;   /* reduce width */
+    margin: 0 auto;     /* center the card */
+    font-size: 0.9rem;  /* optional - smaller text */
+  }
+
+  .projectcontainer .card img {
+    height: 150px;      /* optional - smaller image */
+    object-fit: cover;
+  }
+}
