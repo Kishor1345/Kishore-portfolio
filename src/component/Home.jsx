@@ -2,7 +2,7 @@ import "../component/Home.css";
 import { useEffect } from "react";
 import gsap from "gsap";
 import BubbleBackground from "./BubbleBackground ";
-import pic2 from "./src/assets/pic-2.jpeg";
+import pic2 from "../assets/pic-2.jpeg";
 const Home = () => {
   useEffect(() => {
     gsap.fromTo(
